@@ -58,7 +58,7 @@ public class EquipoBasquet extends Equipo{
 
     @Override
     public String toString() {
-        return super.toString()+ "puntofavor=" + puntofavor + ", puntocontra=" + puntocontra + ", jugadores=" + jugadores + '}';
+        return "puntofavor=" + puntofavor + ", puntocontra=" + puntocontra + ", jugadores=" + jugadores + '}';
     }
     
 }

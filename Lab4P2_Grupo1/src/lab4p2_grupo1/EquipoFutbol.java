@@ -86,7 +86,7 @@ public class EquipoFutbol extends Equipo{
 
     @Override
     public String toString() {
-        return super.toString() + "partidoganado=" + partidoganado + ", partidoperdido=" + partidoperdido + ", partidoempatado=" + partidoempatado + ", golafavor=" + golafavor + ", golencontra=" + golencontra + ", jugadores=" + jugadores + '}';
+        return "partidoganado=" + partidoganado + ", partidoperdido=" + partidoperdido + ", partidoempatado=" + partidoempatado + ", golafavor=" + golafavor + ", golencontra=" + golencontra + ", jugadores=" + jugadores + '}';
     }
     
 }

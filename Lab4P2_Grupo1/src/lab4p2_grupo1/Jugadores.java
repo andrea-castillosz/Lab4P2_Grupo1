@@ -19,6 +19,13 @@ public class Jugadores {
 
     public Jugadores() {
     }
+    
+    public Jugadores(String nombre, int edad, double sueldo, Date duracion_contrato) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.sueldo = sueldo;
+        this.duracion_contrato = duracion_contrato;
+    }
 
     public Jugadores(String nombre, int edad, double sueldo, Equipo equipo, Date duracion_contrato) {
         this.nombre = nombre;

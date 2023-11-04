@@ -81,7 +81,7 @@ public class EquipoVolley extends Equipo{
 
     @Override
     public String toString() {
-        return super.toString() + "puntoanotado=" + puntoanotado + ", puntorecibido=" + puntorecibido + ", setganado=" + setganado + ", setperdido=" + setperdido + ", jugadores=" + jugadores + '}';
+        return "puntoanotado=" + puntoanotado + ", puntorecibido=" + puntorecibido + ", setganado=" + setganado + ", setperdido=" + setperdido + ", jugadores=" + jugadores + '}';
     }
     
 }
